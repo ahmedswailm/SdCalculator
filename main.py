@@ -7,6 +7,9 @@ __version__ = '0.1'
 __license__ = 'GNU GPLv3'
 
 def main():
+    """
+	The main function of this script
+    """
     c = Calculator()
 
 if __name__ == "__main__":
