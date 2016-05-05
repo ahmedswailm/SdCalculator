@@ -145,7 +145,7 @@ class Calculator(object):
         bt_add = Button(self.window, text='+', command=self.add,
                         width=3, height=2, bd=4, fg='black', bg='#0ee618',
                         font=OPS_FONT, relief=GROOVE)
-        bt_mul = Button(self.window, text='*', command=self.multiply,
+        bt_mul = Button(self.window, text='x', command=self.multiply,
                         width=3, height=2, bd=4, fg='black', bg='#0ee618',
                         font=OPS_FONT, relief=GROOVE)
         bt_div = Button(self.window, text='/', command=self.divide,
