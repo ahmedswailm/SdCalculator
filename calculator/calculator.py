@@ -30,8 +30,8 @@ class Calculator(object):
         """
         The initiator method wraps up all the application
         """
-        self.window = Tk(className='Sdcalculator')
-        self.window.title('SdCalculator')
+        self.window = Tk(className='Calculator')
+        self.window.title('Calculator')
         self.window.resizable(0, 0)
         self.buildInterface()
         self.window.mainloop()

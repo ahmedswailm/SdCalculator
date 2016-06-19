@@ -2,7 +2,7 @@
 from setuptools import setup
 
 setup(
-    name='SdCalculator',
+    name='Calculator',
     version='0.1',
     packages=['calculator'],
     url='',
